@@ -1,0 +1,22 @@
+body {
+	background-image: url("/img/background.png");
+	backdrop-filter: blur(10px);
+}
+
+@media (aspect-ratio > 0.8) {
+	body {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
+
+h1 {
+	text-align: center;
+}
+
+.inline-img {
+	display: inline-block;
+	height: 2em;
+	vertical-align: middle;
+}
+
