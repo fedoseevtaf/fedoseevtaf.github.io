@@ -7,8 +7,10 @@
 	<meta charset="utf-8">
 
 	<link rel="stylesheet" href="/styles/common.css">
-	<link rel="stylesheet" href="/styles/inline-img.css">
 	<link rel="stylesheet" href="/styles/fonts.css">
+	<link rel="stylesheet" href="/styles/headings.css">
+	<link rel="stylesheet" href="/styles/layout.css">
+	<link rel="stylesheet" href="/styles/inline-img.css">
 
 	<link rel="preload" href="/fonts/OldStandardTT-Regular.ttf" as="font">
 	<link rel="preload" href="/img/background.png" as="image">
@@ -16,78 +18,84 @@
 
 <body>
 <header>
-	<h1>
-	Trofim Andreevich Fedoseev
-	</h1>
-	<p>
-	student
-	</p>
+	<hgroup>
+		<h1>
+		Trofim Andreevich Fedoseev
+		</h1>
+		<p>
+		student
+		</p>
+	</hgroup>
 </header>
 
+<nav>
+	<a lang="ru-RU" href="/ru-index.html">
+		&#x1f1f7;&#x1f1fa; Русская версия
+	</a>
+</nav>
+
 <aside>
-	<nav>
-		<a lang="ru-RU" href="/ru-index.html">
-			&#x1f1f7;&#x1f1fa; Русская версия
-		</a>
-	</nav>
+	<a href="https://t.me/av10nyt" target="_blank">
+		<img alt="telegram logo" src="/img/telegram-logo.svg"
+			class="inline-img">
+		Telegram: @av10nyt
+	</a>
 
-	<section>
-		<a href="https://t.me/av10nyt" target="_blank">
-			<img alt="telegram logo" src="/img/telegram-logo.svg"
-				class="inline-img">
-			Telegram: @av10nyt
-		</a>
+	<br>
 
-		<br>
-
-		<a href="https://github.com/fedoseevtaf/" target="_blank">
-			<img alt="github logo" src="/img/github-logo.svg"
-				class="inline-img">
-			GitHub: fedoseevtaf
-		</a>
-	</section>
+	<a href="https://github.com/fedoseevtaf/" target="_blank">
+		<img alt="github logo" src="/img/github-logo.svg"
+			class="inline-img">
+		GitHub: fedoseevtaf
+	</a>
 </aside>
 
-<section class="skills">
-	<h2>Skills</h2>
-	<p>
-		Python, C, x86 assembly
-	</p>
-</section>
+<main>
+	<section class="skills">
+		<h2>Skills</h2>
+		<p>
+			Python, C, x86 assembly
+		</p>
+	</section>
 
-<section class="education">
-	<h2>Education</h2>
-	<h3>
-		Moscow State University (in progress)
-		<!<img alt="MSU logo" src="/img/msu-logo-en.svg"
-			class="inline-img">
-	</h3>
-	<p>
-		2024 - present time, bachelor
-	</p>
-	<p>
-		Currently I am the first year student at the Computational
-		Math and Cybernetics faculty of the Moscow State University.
-	</p>
-	<p>
-		While studying I have developed a practice-project integrating
-		modules written in C with modules written in x86 assembly.
-	</p>
-</section>
+	<section class="education">
+		<h2>Education</h2>
+		<hgroup>
+			<h3>
+				Moscow State University (in progress)
+				<!<img alt="MSU logo" src="/img/msu-logo-en.svg"
+					class="inline-img">
+			</h3>
+			<p>
+				2024 - present time, bachelor
+			</p>
+		</hgroup>
+		<p>
+			Currently I am the first year student at the Computational
+			Math and Cybernetics faculty of the Moscow State University.
+		</p>
+		<p>
+			While studying I have developed a practice-project integrating
+			modules written in C with modules written in x86 assembly.
+		</p>
+	</section>
 
-<section class="projects">
-	<h2>Personal projects</h2>
-	<h3>mj</h3>
-	<p>
-		Mj - is a microtesting system, a simple utility with cli
-		for automation of test running. It's made for students like
-		me to help them solve algorithmic tasks in the process of
-		learning. You can see it on github here:
-		<a href="https://github.com/fedoseevtaf/mj" target="_blank">
-			fedoseevtaf/mj
-		</a>
-	</p>
-</section>
+	<section class="projects">
+		<h2>Personal projects</h2>
+		<hgroup>
+			<h3>mj</h3>
+		</hgroup>
+		<p>
+			Mj - is a microtesting system, a simple utility with cli
+			for automation of test running. It's made for students like
+			me to help them solve algorithmic tasks in the process of
+			learning. You can see it on github here:
+			<a href="https://github.com/fedoseevtaf/mj" target="_blank">
+				fedoseevtaf/mj
+			</a>
+		</p>
+	</section>
+</main>
 
 </body>
 </html>
