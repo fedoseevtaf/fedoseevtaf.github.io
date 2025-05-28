@@ -43,4 +43,14 @@ header, main, aside, nav{
 	border-color: rgb(10, 116, 166);
 }
 
+nav {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+aside {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
 
